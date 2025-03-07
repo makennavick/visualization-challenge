@@ -1,17 +1,20 @@
 ## Pymaceuticals mice study challenge
 
-Background
-You've just joined Pymaceuticals, Inc., a new pharmaceutical company that specializes in anti-cancer medications. Recently, it began screening for potential treatments for squamous cell carcinoma (SCC), a commonly occurring form of skin cancer.
+#### Background
+- Pymaceuticals Inc. studied mice with squamos cell carcinoma (skin cancer) 
+- 45 days measuring their tumor growth/development when put on various drug regimens
+- [View study data here](data)
 
-As a senior data analyst at the company, you've been given access to the complete data from their most recent animal study. In this study, 249 mice who were identified with SCC tumors received treatment with a range of drug regimens. Over the course of 45 days, tumor development was observed and measured. **The purpose of this study was to compare the performance of Pymaceuticals’ drug of interest, Capomulin, against the other treatment regimens.**
+#### Goal 
+- How does Capomulin compare to other drug treatments?
 
-The executive team has tasked you with generating all of the tables and figures needed for the technical report of the clinical study. They have also asked you for a top-level summary of the study results.
+#### Results
+- See [stats_summary.csv](analysis/stats_summary.csv) for stats on each drug's effect on tumor volume, along with a few of the key visuals in the [analysis](analysis) folder
+- Capomulin excelled in performance compared to every other treatment plan - Ramicane is its only competitor. Do not put your pet mouse on Propiva.
+- Tumor size varies according to mouse weight (i.e. smaller mouse = smaller tumor)
 
-Files
-
-sources -
-- ai to help merge properly; it wasn't working correclty
-- bootcamp starter code & previous class activities
+### Sources
+- Bootcamp starter code & previous class activities
 
 
 <!-- NOTES TO SELF: 
